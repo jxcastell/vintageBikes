@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jaime's Vintage Motorcycles</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/eventCalendar.css">
+    <script type="text/javascript">
+        function display_c(){
+            var refresh=1000; // Refresh rate in milli seconds
+            mytime=setTimeout('display_ct()',refresh)
+        }
+
+        function display_ct() {
+            var strcount
+            var x = new Date()
+            document.getElementById('ct').innerHTML = x;
+            tt=display_c();
+        }
+    </script>
+</head>
+<body onload=display_ct();>
+<main>
+    <h1><img src="images/header.PNG" ></h1>
+
+    <nav id="nav_menu">
+        <ul>
+            <li class="oval"><a href="index.html">Home<br>&nbsp; </a></li>
+            <li class="oval"><a class="current" href="#href">Events<br>Calendar</a></li>
+            <li class="oval"><a href="otherServices.html">Other<br>Services</a></li>
+            <li class="oval"><a href="contactUs.html">Contact<br>Us</a></li>
+            <li class="oval"><a href="aboutUs.html">About<br>Us</a>            </li>
+        </ul>
+
+    </nav>
+</main>
+<div id="tdate">
+    <span id='ct' ></span>
+
+</div>
+<div class="row1">
+
+    <table>
+        <tr>
+        <td class="left">
+            <img src="images/event8.PNG" >
+        </td>
+         <td class="right">
+             <h3>Picknick in the Park - June 10, 2018</h3>
+            <article>The Norton Motorcycle Company (formerly Norton Motors, Ltd.) is a British motorcycle marque,
+                   originally from Birmingham, UK. It was founded in 1898 as a manufacturer of "fittings and
+                   parts for the two-wheel trade". By 1902, the company began manufacturing motorcycles
+                   with bought-in engines. In 1908, a Norton-built engine was added to the range.
+            </article>
+         </td>
+        </tr>
+    </table>
+</div >
+<div class="row1">
+
+    <table>
+        <tr>
+            <td class="left">
+                <img src="images/event5.PNG" >
+            </td>
+            <td class="right">
+                <h3>Connecticut Ride  - June 16, 2018</h3>
+                <article>The Norton Motorcycle Company (formerly Norton Motors, Ltd.) is a British motorcycle marque,
+                    originally from Birmingham, UK. It was founded in 1898 as a manufacturer of "fittings and
+                    parts for the two-wheel trade". By 1902, the company began manufacturing motorcycles
+                    with bought-in engines. In 1908, a Norton-built engine was added to the range.
+                </article>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="row1">
+      <table>
+         <tr>
+            <td class="left">
+                <img src="images/event9.PNG" >
+            </td>
+            <td class="right">
+                <h3>Great Adventure Ride  - June 26, 2018</h3>
+                <article>The Norton Motorcycle Company (formerly Norton Motors, Ltd.) is a British motorcycle marque,
+                    originally from Birmingham, UK. It was founded in 1898 as a manufacturer of "fittings and
+                    parts for the two-wheel trade". By 1902, the company began manufacturing motorcycles
+                    with bought-in engines. In 1908, a Norton-built engine was added to the range.
+                </article>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<footer>
+    <p>&nbsp;</p>
+    <aside> Call us: (888) 888 8888</aside>
+    <p> Footer information</p>
+
+</footer>
+</body>
+</html>
